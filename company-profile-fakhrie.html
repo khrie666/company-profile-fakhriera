@@ -1,0 +1,224 @@
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Fakhrie Rizki Athallah</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background: #f5f5f5;
+            line-height: 1.6;
+        }
+
+        nav {
+            background: #243b55;
+            color: white;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h2 {
+            font-size: 19px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 15px;
+        }
+
+        nav a:hover {
+            color: #b8d4ff;
+        }
+
+        header {
+            background: #dce6f1;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            color: #243b55;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            margin-bottom: 25px;
+        }
+
+        .tombol {
+            display: inline-block;
+            background: #243b55;
+            color: white;
+            padding: 10px 22px;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        section {
+            padding: 55px 10%;
+        }
+
+        section h2 {
+            text-align: center;
+            color: #243b55;
+            margin-bottom: 20px;
+        }
+
+        #tentang, #kontak {
+            background: white;
+        }
+
+        #layanan {
+            background: #edf1f5;
+        }
+
+        .daftar-layanan {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .kartu {
+            background: white;
+            padding: 25px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 250px;
+        }
+
+        .kartu h3 {
+            color: #243b55;
+            margin-bottom: 10px;
+        }
+
+        #kontak {
+            text-align: center;
+        }
+
+        footer {
+            background: #243b55;
+            color: white;
+            text-align: center;
+            padding: 18px;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            nav a {
+                margin: 5px;
+                font-size: 14px;
+            }
+
+            header h1 {
+                font-size: 28px;
+            }
+
+            section {
+                padding: 40px 7%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>Fakhrie Rizki Athallah</h2>
+
+        <div>
+            <a href="#beranda">Beranda</a>
+            <a href="#tentang">Tentang</a>
+            <a href="#layanan">Keahlian</a>
+            <a href="#kontak">Kontak</a>
+        </div>
+    </nav>
+
+    <header id="beranda">
+        <h1>Halo, Saya Fakhrie Rizki Athallah</h1>
+
+        <p>
+            Selamat datang di halaman profil saya.
+        </p>
+
+        <a href="#tentang" class="tombol">Kenali Saya</a>
+    </header>
+
+    <section id="tentang">
+        <h2>Tentang Saya</h2>
+
+        <p>
+            Perkenalkan, nama saya Fakhrie Rizki Athallah.
+            Saya sedang mempelajari cara membuat website menggunakan
+            HTML dan CSS. Melalui website ini, saya ingin mengenal
+            lebih jauh tentang pembuatan halaman web dan cara
+            mengatur tampilannya agar mudah digunakan.
+        </p>
+    </section>
+
+    <section id="layanan">
+        <h2>Hal yang Saya Pelajari</h2>
+
+        <div class="daftar-layanan">
+
+            <div class="kartu">
+                <h3>HTML</h3>
+                <p>
+                    Mempelajari struktur dasar untuk membuat
+                    halaman website.
+                </p>
+            </div>
+
+            <div class="kartu">
+                <h3>CSS</h3>
+                <p>
+                    Mengatur warna, ukuran tulisan, dan tata letak
+                    supaya website lebih rapi.
+                </p>
+            </div>
+
+            <div class="kartu">
+                <h3>Web Design</h3>
+                <p>
+                    Belajar menyusun tampilan website yang sederhana
+                    dan nyaman dilihat.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="kontak">
+        <h2>Kontak</h2>
+
+        <p>Nama: Fakhrie Rizki Athallah</p>
+        <p>Website: Profil Pribadi</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Fakhrie Rizki Athallah</p>
+    </footer>
+
+</body>
+</html>
+```
